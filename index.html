@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separated Images</title>
+    <style>
+        /* Center content and add space around the sections */
+        .image-section {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        img {
+            display: inline-block;
+            max-width: 103%;
+            height: auto;
+        }
+
+        /* Styling for the exact thick separator line from your image */
+        .divider {
+    border: none;               /* Removes the default thin gray border */
+    height: 15px;               /* Defines the thickness of the line */
+    background-color: #1e2229;  /* The dark charcoal gray color from your image */
+    width: 106.5%;                /* Forces it to stretch across the page */
+    margin: 0px -2.5%;          /* Perfectly centers the extra 1% width on both sides */
+}
+
+    </style>
+</head>
+<body>
+    <div class="image-section">
+        <img src="Approval_copy (1)_1.jpg" alt="A beautiful landscape scenery" width="450" height="900">
+    </div>
+
+    <!-- The Thick Divider Line -->
+    <hr class="divider">
+
+    <!-- Second Image Section -->
+    <div class="image-section">
+        <img src="Approval_copy (1)_2.jpg" alt="W3Schools Logo" width="450" height="600">
+    </div>
+
+</body>
+</html>
